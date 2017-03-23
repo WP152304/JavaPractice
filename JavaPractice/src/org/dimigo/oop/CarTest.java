@@ -24,6 +24,7 @@ public class CarTest {
 		Car car = new Car();
 		System.out.println("<<자동차 목록>>");
 		car.setCompany("현대자동차");
+		
 		car.setModel("제네시스");
 		car.setColor("검정색");
 		car.setMaxSpeed(225);

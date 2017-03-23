@@ -45,6 +45,7 @@ public class Car {
 	
 	public void setCompany(String newCompany){
 		company = newCompany;
+		
 	}
 
 	public void setModel(String newModel){

@@ -39,7 +39,7 @@ public class Loop {
 		         System.out.println("3. 캐릭터 설정");
 		         System.out.println("9. 종료");
 		         System.out.println("--------------------");
-
+		         
 		         System.out.print("메뉴 선택 ==>");
 		         choice = scanner.nextInt();
 
