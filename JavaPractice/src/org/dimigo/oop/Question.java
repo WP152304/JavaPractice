@@ -35,7 +35,7 @@ public class Question {
          buff = scan.nextLine();
          System.out.println(buff.equals(answers[i]) ? "정답입니다!" : "틀렸습니다!");
       }
-      System.out.println("<<결과 출력>>");
+      System.out.println("<< 결과 출력 >>");
       for (int i = 0; i < questions.length; i++) {
          System.out.println(prints[i].append(answers[i]).append("입니다."));
       }
