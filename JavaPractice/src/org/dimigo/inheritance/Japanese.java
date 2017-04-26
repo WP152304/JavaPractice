@@ -1,12 +1,12 @@
 /**
  * 
  */
-package inheritance;
+package org.dimigo.inheritance;
 
 /**
  *<pre>
  *inheritance
- *  |_Korean
+ *  |_Japanese
  *
  * 1.개요 :
  * 2.작성일 : 2017. 4. 26.
@@ -15,20 +15,20 @@ package inheritance;
  * @author sec
  * @version : 1.0
  */
-public class Korean extends Person{
-	public Korean(String name){
+public class Japanese extends Person{
+	public Japanese (String name){
 		super(name);
 	}
 	
 	public void sayHello(){
-		System.out.println("안녕하세요");
+		System.out.println("오하이요");
 	}
 	
 	public void sayBye(){
-		System.out.println("안녕히 계세요");
+		System.out.println("사요나라");
 	}
 	
 	public String toString() {
-		return "저는 한국사람 " + getName() + "입니다";
+		return "저는 일본사람 " + getName() + "입니다";
 	}
 }
