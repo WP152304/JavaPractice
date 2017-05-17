@@ -1,6 +1,6 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
-public class SmartPhone {
+public abstract class SmartPhone {
 	
 	private String model;
 	private String company;
@@ -20,14 +20,14 @@ public class SmartPhone {
 	public void turnOff(){
 		System.out.println(model +"전원을 끕니다.");
 	}
-	   public void pay(){
-	   }
-	public void useSpecialFunction(SmartPhone phone){
-	      if (phone instanceof IPhone){
-	         ((IPhone)phone).useAirDrop();
+	   public abstract void pay();
+	   
+	public void useSpecialFunction(){
+	      if (this instanceof IPhone){
+	         ((IPhone)this).useAirDrop();
 	      }
-	      if (phone instanceof Galaxy){
-	         ((Galaxy)phone).useWirelessCharging();
+	      if (this instanceof Galaxy){
+	         ((Galaxy)this).useWirelessCharging();
 	      }
 	   }
 	    
